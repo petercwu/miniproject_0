@@ -13,7 +13,7 @@ public class bowAngleScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-		Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-		transform.rotation = Quaternion.LookRotation(Vector3.forward, mousePos - transform.position);
+      Vector3 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+      transform.rotation = Quaternion.LookRotation(Vector3.forward, mousePosition - transform.position);
     }
 }
