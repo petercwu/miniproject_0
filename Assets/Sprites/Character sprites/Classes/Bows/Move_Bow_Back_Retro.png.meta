@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -108,7 +108,343 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Move_Bow_Back_Retro_0
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 450
+        width: 259
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 902f2e11c8fb3a94e9fc7cf1f9a8c400
+      internalID: 436977120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Bow_Back_Retro_1
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 452
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3eeee0c380e2fa4db1ec646dd01211f
+      internalID: 153342260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Bow_Back_Retro_2
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 450
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1aa720ad1d87c484fb7ab2554979ddd3
+      internalID: 927440707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Bow_Back_Retro_3
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 451
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae9aa148d2d911b4d8252781ba6df5a9
+      internalID: -75176035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Bow_Back_Retro_4
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 311
+        width: 30
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1eb4614f76d19046ba7eb53beae0d8d
+      internalID: -740394212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Bow_Back_Retro_5
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 310
+        width: 30
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91a9a8f8fc974f4438ad2e78cbe719cf
+      internalID: -81235663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Bow_Back_Retro_6
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 310
+        width: 30
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1405f03dc2958f249a4b957993df55d9
+      internalID: 1211480909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Bow_Back_Retro_7
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 310
+        width: 30
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb48d43c59e920644b2c1ad27ed5c85e
+      internalID: -501429515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Bow_Back_Retro_8
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 310
+        width: 30
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cac15deb255c5cc45a7a566b1a90c5c3
+      internalID: 1087271222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Bow_Back_Retro_9
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 310
+        width: 30
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be21abc0e6cea8143b2c9fb70ff43b64
+      internalID: 1056543446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Bow_Back_Retro_10
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 60
+        width: 30
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbae499f0f15e9b4f998e32a93300fcc
+      internalID: -1497092997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Bow_Back_Retro_11
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 60
+        width: 30
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d09cd53f16b7064290baa5035a29f7f
+      internalID: 2037522638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Bow_Back_Retro_12
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 59
+        width: 30
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e31253386893ada45a7a3d1996c82991
+      internalID: 347685160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Bow_Back_Retro_13
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 58
+        width: 30
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 486e3ef6856dd68479402b2845f0f3dd
+      internalID: -1278582341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Bow_Back_Retro_14
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 59
+        width: 30
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45d959f8b14b7c641ab52df0f785cfd7
+      internalID: -552290251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Bow_Back_Retro_15
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 59
+        width: 30
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7032d9ecdee237419331a1ff9863b11
+      internalID: -2025381422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +455,23 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Move_Bow_Back_Retro_0: 436977120
+      Move_Bow_Back_Retro_1: 153342260
+      Move_Bow_Back_Retro_10: -1497092997
+      Move_Bow_Back_Retro_11: 2037522638
+      Move_Bow_Back_Retro_12: 347685160
+      Move_Bow_Back_Retro_13: -1278582341
+      Move_Bow_Back_Retro_14: -552290251
+      Move_Bow_Back_Retro_15: -2025381422
+      Move_Bow_Back_Retro_2: 927440707
+      Move_Bow_Back_Retro_3: -75176035
+      Move_Bow_Back_Retro_4: -740394212
+      Move_Bow_Back_Retro_5: -81235663
+      Move_Bow_Back_Retro_6: 1211480909
+      Move_Bow_Back_Retro_7: -501429515
+      Move_Bow_Back_Retro_8: 1087271222
+      Move_Bow_Back_Retro_9: 1056543446
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
