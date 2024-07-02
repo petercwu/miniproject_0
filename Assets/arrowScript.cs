@@ -20,7 +20,8 @@ public class arrowScript : MonoBehaviour
 
         // rotate the arrow while in bow
         if (inMotion == false) {
-            transform.rotation = Quaternion.LookRotation(Vector3.forward, mousePosition - transform.position);
+            Quaternion targetRotation = Quaternion.LookRotation(Vector3.forward, mousePosition - transform.position);
+            transform.rotation = targetRotation * Quaternion.Euler(0, 0, 90);
         }
 
         // arrow is fired
@@ -29,8 +30,17 @@ public class arrowScript : MonoBehaviour
             Vector2 direction = mousePosition - transform.position;
             direction.Normalize();
             arrowRigidBody.velocity = direction * arrowSpeed;
-            transform.rotation = Quaternion.LookRotation(Vector3.forward, mousePosition - transform.position);
+            Quaternion targetRotation = Quaternion.LookRotation(Vector3.forward, mousePosition - transform.position);
+            transform.rotation = targetRotation * Quaternion.Euler(0, 0, 90);
         }
-        
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision) {
+        // Check if colliding with the floor
+        if (collision.gameObject.CompareTag("Grass Floor"))
+        {
+            Debug.Log("Arrow collided with the floor!");
+            // Add any additional logic here, such as destroying the arrow or triggering effects
+        }
     }
 }
