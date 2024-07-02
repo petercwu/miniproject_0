@@ -34,13 +34,4 @@ public class arrowScript : MonoBehaviour
             transform.rotation = targetRotation * Quaternion.Euler(0, 0, 90);
         }
     }
-
-    private void OnCollisionEnter2D(Collision2D collision) {
-        // Check if colliding with the floor
-        if (collision.gameObject.CompareTag("Grass Floor"))
-        {
-            Debug.Log("Arrow collided with the floor!");
-            // Add any additional logic here, such as destroying the arrow or triggering effects
-        }
-    }
 }
