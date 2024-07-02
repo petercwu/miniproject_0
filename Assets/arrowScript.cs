@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class arrowScript : MonoBehaviour
 {
-    private float arrowSpeed = 1;
+    public float arrowSpeed;
     public Rigidbody2D arrowRigidBody;
     private bool inMotion = false;
     // Start is called before the first frame update
