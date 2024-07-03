@@ -34,4 +34,10 @@ public class arrowScript : MonoBehaviour
             transform.rotation = targetRotation * Quaternion.Euler(0, 0, 90);
         }
     }
+
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        transform.rotation = Quaternion.Euler(Vector3.Reflect(transform.rotation.eulerAngles, collision.collider.transform.forward));
+    }
+
 }
