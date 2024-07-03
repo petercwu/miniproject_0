@@ -32,12 +32,18 @@ public class arrowScript : MonoBehaviour
             arrowRigidBody.velocity = direction * arrowSpeed;
             Quaternion targetRotation = Quaternion.LookRotation(Vector3.forward, mousePosition - transform.position);
             transform.rotation = targetRotation * Quaternion.Euler(0, 0, 90);
+            
         }
     }
 
     void OnCollisionEnter2D(Collision2D collision)
     {
-        transform.rotation = Quaternion.Euler(Vector3.Reflect(transform.rotation.eulerAngles, collision.collider.transform.forward));
+        Vector2 currentDirection = transform.right;
+        
+        // reflect the direction based on the collision normal
+        Vector2 reflectedDirection = Vector2.Reflect(currentDirection, collision.contacts[0].normal);
+        float angle = Mathf.Atan2(reflectedDirection.y, reflectedDirection.x) * Mathf.Rad2Deg;
+        transform.rotation = Quaternion.Euler(0, 0, angle);
     }
 
 }
