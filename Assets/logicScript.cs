@@ -10,4 +10,9 @@ public class logicScript : MonoBehaviour
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
+
+    public void returnMenu()
+    {
+        SceneManager.LoadSceneAsync("menuPage");
+    }
 }
