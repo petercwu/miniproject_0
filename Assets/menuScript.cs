@@ -10,10 +10,10 @@ public class menuScript : MonoBehaviour
         SceneManager.LoadSceneAsync("levelOne");
     }
 
-    //     public void selectLevel()
-    // {
-
-    // }
+        public void selectLevel()
+    {
+        SceneManager.LoadSceneAsync("selectLevel");
+    }
 
         public void quit()
     {
