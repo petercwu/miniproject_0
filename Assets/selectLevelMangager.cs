@@ -15,13 +15,13 @@ public class selectLevelMangager : MonoBehaviour
         SceneManager.LoadSceneAsync("levelOne");
     }
 
-    // public void levelTwo()
-    // {
-    //     SceneManager.LoadSceneAsync("selectLevel");
-    // }
+    public void levelTwo()
+    {
+        SceneManager.LoadSceneAsync("levelTwo");
+    }
 
-    // public void levelThree()
-    // {
-    //     SceneManager.LoadSceneAsync("selectLevel");
-    // }
+    public void levelThree()
+    {
+        SceneManager.LoadSceneAsync("levelThree");
+    }
 }
