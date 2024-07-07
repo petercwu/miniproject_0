@@ -8,6 +8,7 @@ public class logicScript : MonoBehaviour
 {
     public void restartGame()
     {
+        EnemyScript.enemyCount = 0;
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 

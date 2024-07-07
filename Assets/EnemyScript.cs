@@ -28,17 +28,18 @@ public class EnemyScript : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+
         if(collision.gameObject.tag == "Arrow")
         {
-            Destroy(collision.gameObject);
             Destroy(gameObject);
-            Debug.Log("Enemies Count:" + enemyCount);
             enemyCount--;
 
+            // reload the bow if there are still enemies
             if (enemyCount > 0) {
-                Debug.Log("Arrow Sprite Starting Position2: " + arrowStartingPosition);
                 Instantiate(arrowSprite, arrowStartingPosition, bowSprite.transform.rotation);
             }
+
+            Destroy(collision.gameObject);
         }   
     }
 }
