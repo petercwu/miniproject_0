@@ -7,6 +7,7 @@ public class arrowScript : MonoBehaviour
     public float arrowSpeed;
     public Rigidbody2D arrowRigidBody;
     private bool inMotion = false;
+    public logicScript logic;
     // Start is called before the first frame update
     void Start()
     {
@@ -33,6 +34,10 @@ public class arrowScript : MonoBehaviour
             Quaternion targetRotation = Quaternion.LookRotation(Vector3.forward, mousePosition - transform.position);
             transform.rotation = targetRotation * Quaternion.Euler(0, 0, 90);
             
+        }
+
+        if ((transform.position.x > 2.76) || (transform.position.x < -1.8)) {
+            logic.gameOver();
         }
     }
 

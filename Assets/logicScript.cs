@@ -6,6 +6,8 @@ using UnityEngine.SceneManagement;
 
 public class logicScript : MonoBehaviour
 {
+    public GameObject gameOverScreen;
+
     public void restartGame()
     {
         EnemyScript.enemyCount = 0;
@@ -15,5 +17,9 @@ public class logicScript : MonoBehaviour
     public void returnMenu()
     {
         SceneManager.LoadSceneAsync("menuPage");
+    }
+
+    public void gameOver() {
+        gameOverScreen.SetActive(true);
     }
 }
