@@ -7,6 +7,7 @@ using UnityEngine.SceneManagement;
 public class logicScript : MonoBehaviour
 {
     public GameObject gameOverScreen;
+    public GameObject levelCompleteScreen;
 
     public void restartGame()
     {
@@ -21,5 +22,17 @@ public class logicScript : MonoBehaviour
 
     public void gameOver() {
         gameOverScreen.SetActive(true);
+    }
+
+    public void levelComplete() {
+        levelCompleteScreen.SetActive(true);
+    }
+
+    public void loadLevelTwo() {
+        SceneManager.LoadSceneAsync("levelTwo");
+    }
+
+    public void loadLevelThree() {
+        SceneManager.LoadSceneAsync("levelThree");
     }
 }

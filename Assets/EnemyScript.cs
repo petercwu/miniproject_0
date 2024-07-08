@@ -8,7 +8,8 @@ public class EnemyScript : MonoBehaviour
     public GameObject arrowSprite;
     public GameObject bowSprite;
     private Vector3 arrowStartingPosition;
-    
+    public logicScript logic;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -18,7 +19,7 @@ public class EnemyScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+ 
     }
 
     public void Awake()
@@ -40,6 +41,10 @@ public class EnemyScript : MonoBehaviour
             }
 
             Destroy(collision.gameObject);
+            
+            if (enemyCount == 0) {
+            logic.levelComplete();
+            }
         }   
     }
 }
